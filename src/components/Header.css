@@ -1,0 +1,36 @@
+.summary-container{
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weather{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    margin-right: 0.2rem;
+}
+
+.location{
+    margin-right: 1rem;
+}
+
+.logo{
+    width: 150px;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+}
+
+.day{
+    margin-right: 0.4rem;
+}
+
+.hours{
+    font-weight: var(--font-weight-bold);
+}

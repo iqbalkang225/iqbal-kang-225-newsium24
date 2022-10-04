@@ -1,0 +1,6 @@
+.content-title{
+    margin: 2rem 0;
+    text-transform: capitalize;
+    border-bottom: 2px solid var(--color-primary);
+    display: inline-block;
+}

@@ -1,0 +1,19 @@
+.navigation{
+    border-top: 1px solid var(--color-gray);
+    border-bottom: 1px solid var(--color-gray);
+    padding: 1rem 0;
+}
+
+.nav-menu{
+    display: flex;
+    font-weight: var(--font-weight-regular);
+}
+
+.nav-item{
+    margin-right: 2rem;
+}
+
+.nav-item a:hover {
+    color: var(--color-primary);
+    transition: all 0.1s linear;
+}

@@ -1,0 +1,153 @@
+.home-section {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    align-content: end;
+    align-items: center;
+    row-gap: 4rem;
+    column-gap: 2rem;
+}
+
+.hot-subheading{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    margin-right: 0.6rem;
+}
+
+.hot-title{
+    max-width: 35rem;
+    line-height: 1.4;
+    text-transform: capitalize;
+}
+
+.subheading,
+.topic-info,
+.headlines-info {
+    font-size: 10px;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text-gray);
+}
+
+.topic-info{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.belongs-to{
+    margin-left: 1rem;
+    color: var(--color-link);
+}
+
+.headlines-container{
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.headline{
+    margin-bottom: 2rem;
+    padding-right: 1rem;
+}
+
+.headlines-subheading .subheading{
+    margin-bottom: -8px;
+}
+
+.breaking-title-main{
+    background-color: var(--color-primary);
+    padding: 0.6rem 1rem;
+    display: inline-block;
+    font-size: 10px;
+}
+
+.breaking-news-list{
+    display: flex;
+    gap: 1rem;
+    background-color: var(--color-white);
+    padding: 1rem;
+
+    color: var(--color-black);
+    font-weight: var(--font-weight-bold);
+    font-size: 12px;
+}
+
+.breaking-news {
+    display: flex;
+    gap: 1rem;
+    /* align-items: center; */
+    
+}
+
+.breaking-news-img{
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+}
+
+.breaking-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.breaking-title{
+    display: flex;
+    font-size: 10px;
+    font-weight: var(--font-weight-bold);
+}
+
+.breaking-title .published-on{
+    color: var(--color-text-gray);
+    margin-right: 0.2rem;
+}
+
+.headlines-subheading{
+    margin-bottom: 1rem;
+}
+
+.headlines-info{
+    display: flex;
+    margin-top: 0.4rem;
+}
+
+.from{
+    color: var(--color-link);
+    margin-left: 1rem;
+}
+
+.news-location {
+    font-weight: var(--font-weight-bolder);
+}
+
+.breaking-text{
+    font-weight: var(--font-weight-bolder);
+    font-size: 10px;
+}
+
+.own-story{
+    position: relative;
+    top: 1rem;
+}
+
+.own-subheading{
+    margin-bottom: 0.6rem;
+}
+
+.headlines-container::-webkit-scrollbar {
+    width: 0.1rem;
+  }
+   
+  .headlines-container::-webkit-scrollbar-track {
+    background-color: var(--color-gray);
+  }
+   
+  .headlines-container::-webkit-scrollbar-thumb {
+    background-color: var(--color-primary);
+  }
