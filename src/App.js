@@ -7,16 +7,8 @@ import Home from './pages/Home'
 import ContentHolder from './pages/ContentHolder';
 import NewsList from './components/NewsList'
 
-
-
-
-
-// topics: economics,random,tech,science,finance,sport,entertainment
-
 function App() {
-
-
-
+  
   return (
     <div className = "app">
 

@@ -5,6 +5,11 @@ import Navigation from './Navigation'
 import './Header.css'
 
 const Header = () => {
+
+    const today = new Date();
+    const day = today.toLocaleString("en-US", { weekday: "long" });
+    const time = `${today.getHours()}:${String(today.getMinutes()).padStart(2, "0")}`
+  
     return (
         <header>
             <div className = "summary-container section-center">
@@ -19,8 +24,8 @@ const Header = () => {
                 </Link>
 
                 <div className = "time">
-                    <p className = "day">Wednesday</p>
-                    <p className = "hours">16:00</p>
+                    <p className = "day">{day}</p>
+                    <p className = "hours">{time}</p>
                 </div>
 
             </div>

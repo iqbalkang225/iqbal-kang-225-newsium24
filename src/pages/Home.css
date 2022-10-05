@@ -44,6 +44,7 @@
 .belongs-to{
     margin-left: 1rem;
     color: var(--color-link);
+    text-transform: capitalize;
 }
 
 .headlines-container{
@@ -68,7 +69,8 @@
 }
 
 .breaking-news-list{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     background-color: var(--color-white);
     padding: 1rem;
@@ -81,7 +83,7 @@
 .breaking-news {
     display: flex;
     gap: 1rem;
-    /* align-items: center; */
+    align-items: center;
     
 }
 
@@ -138,6 +140,11 @@
 
 .own-subheading{
     margin-bottom: 0.6rem;
+}
+
+.headlines-container{
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .headlines-container::-webkit-scrollbar {
